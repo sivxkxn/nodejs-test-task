@@ -1,0 +1,23 @@
+[
+    {
+      "id": 1,
+      "section": "Main",
+      "row": "A",
+      "seatNumber": "101",
+      "price": 50
+    },
+    {
+      "id": 2,
+      "section": "Balcony",
+      "row": "B",
+      "seatNumber": "201",
+      "price": 30
+    },
+    {
+      "id": 3,
+      "section": "VIP",
+      "row": "C",
+      "seatNumber": "301",
+      "price": 100
+    }
+  ]

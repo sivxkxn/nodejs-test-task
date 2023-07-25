@@ -12,7 +12,6 @@ export class TicketFetcherService {
   async fetchConcertTickets(eventId: string): Promise<ConcertTicket[]> {
     try {
       const response = await axios.get(`${this.path}/${eventId}`);
-      // const response =  await axios.get('https://my.laphil.com/en/syos2/package/23')
       const ticketData = response.data;
       return ticketData;
     } catch (error) {
